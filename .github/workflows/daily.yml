@@ -2,7 +2,7 @@ name: Daily Telegram Message
 
 on:
   schedule:
-    - cron: '33 12 * * *'   # 매일 09:00 KST
+    - cron: '40 12 * * *'   # 매일 09:00 KST
   workflow_dispatch:
 
 jobs:
